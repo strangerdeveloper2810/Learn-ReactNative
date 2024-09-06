@@ -17,14 +17,14 @@ class Home extends Component {
     return (
       <View style={style.container}>
         <Text style={style.title}>Today's Task</Text>
-        <ScrollView>
-          <View>
-            <View>
-              <View></View>
-              <Text></Text>
+        <ScrollView style={style.mt_24}>
+          <View style={style.taskItem}>
+            <View style={style.subTaskItem}>
+              <View style={[style.square, style.mr_16]}></View>
+              <Text>Like</Text>
             </View>
 
-            <View></View>
+            <View style={style.circle}></View>
           </View>
         </ScrollView>
         <View style={style.wrapper}>
